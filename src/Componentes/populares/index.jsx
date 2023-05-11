@@ -1,5 +1,5 @@
 import React from 'react'
-import fotosPop from './fotos-pop.json'
+import fotosPop from './fotosPop.json'
 import styles from './populares.module.scss'
 
 export default function Populares() {

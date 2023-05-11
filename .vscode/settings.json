@@ -1,0 +1,4 @@
+{
+    "scss.lint.unknownAtRules": "ignore",
+}
+// esse json serve para o vscode nao reclamar do @import-normalize dentro do styles

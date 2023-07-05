@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Space
+![Badge ](http://img.shields.io/static/v1?label=STATUS&message=Concluido&color=GREEN&style=for-the-badge)
+![GitHub Org's stars](https://img.shields.io/github/stars/camilafernanda?style=social)
+<h3>Space é uma galeria de imagens do espaço, onde contem galáxias, estrelas, lua...</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![alura space ](https://github.com/GabrielBarbosa2003/space/assets/54041388/6f699be5-4840-484f-a44e-13839d411798)
 
-## Available Scripts
+# Índice 
 
-In the project directory, you can run:
+* [Índice](#índice)
+* [Descrição do Projeto](#Descrição-do-Projeto)
+* [Funcionalidades do projeto](#Funcionalidades-do-projeto)
+* [Abrir e rodar projeto](#Abrir-e-rodar-projeto)
+* [Técnicas e tecnologias utilizadas](#Técnicas-e-tecnologias-utilizadas)
+* [Observações gerais](#Observações-gerais)
 
-### `npm start`
+# Descrição do Projeto
+O alura space é um projeto feito visando meus estudos react, onde desenvolvi o site com a ajuda dos cursos da alura.
+O sistema consome uma fake api, assim listando todas as imagens, e podendo fazer buscas através de seus ids.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# :hammer: Funcionalidades do projeto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- `Funcionalidade 1`: Filtrar imagens pelo seu id
+  Esse projeto foi feito pensando em seu visual, algo moderno juntando Scss
+  
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 🛠️ Abrir e rodar o projeto
+Para rodar o front-end, basta abrir a pasta "front-alfood" e então executar um "npm install" para instalar todas as dependências do projeto.
+Já o back-end, será necessario ter o docker em seu computador instalado.
+Após instalado:
+1- docker-build;
+2- docker-compose up
 
-### `npm run build`
+Após todos esses passos, o sistema deverá rodar em sua máquina! 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#  Técnicas e tecnologias utilizadas
+* TypeScript
+* ReactJS
+* Pyton
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  # Observações gerais
+  Esse projeto faz parte de um estudo meu dentro da plataforam de cursos alura, onde com a ajuda de um instrutor, foi possivel o desenvolvimento desse sistema.
